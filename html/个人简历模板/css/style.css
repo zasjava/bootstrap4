@@ -1,0 +1,52 @@
+html {
+  min-width: 400px;
+
+}
+
+.left {
+  background: #4BCFE9;
+  top: 0px;
+}
+
+.right {
+  margin-bottom: 120px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+
+  .left {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  .right {
+    margin-left: 25%;
+  }
+
+}
+
+ul {
+  list-style: none;
+}
+
+i {
+  color: #6ecadc;
+}
+
+.color1,.color2,.color3,.color4 {
+  background: black;
+  margin-left: 15px;
+  width: 80px;
+  color: white;
+}

@@ -1,0 +1,97 @@
+
+@media (max-width: 992px) {
+  .left{
+    margin: 1rem 0;
+  }
+
+}
+
+
+@media (min-width: 992px) {
+ .left{
+   position:fixed;
+   top: 0;
+   left:0;
+   height: 100vh;
+
+ }
+  .margin1{
+    margin-top: 40vh;
+  }
+  .margin2{
+    margin: 20px 0;
+  }
+
+  .right{
+    margin-left: 25%;
+  }
+
+}
+
+
+.margin2{
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+
+
+.left{
+  border-right: 2px;
+  solid-color: #eeeeee;
+}
+.left a{
+  font-weight: bold;
+  color: #000;
+}
+.max-h{
+  max-height: 300px;
+}
+.list{
+  background: #eeeeee;
+}
+.list-border{
+  border: 2px solid #DBDBDB;
+  border-top: 1px solid #DBDBDB;
+}
+.box{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+#ulList{
+  list-style: none;
+  width: 1400px;
+  position: absolute;
+}
+#ulList li{
+  float: left;
+  margin-left: 15px;
+  z-index: auto;
+}
+#left{
+  position: absolute;
+  left: 20px;top:30%;
+  z-index: 10;
+  cursor: pointer;
+}
+#right{
+  position: absolute;
+  right: 20px;
+  top: 30%;
+  z-index: 10;
+  cursor: pointer;
+}
+.font-menu{
+  font-size: 1.3rem;
+}
+.ab{
+  color: #00A862!important;
+}
+#myTab li{
+  width: 20vw;
+  min-width: 30px;
+  font-size: 0.8rem;
+  color: #919191;
+}

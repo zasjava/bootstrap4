@@ -1,0 +1,63 @@
+#navbar{
+  height: 60px;
+  box-shadow:0 1px 10px red;
+}
+.list{
+  height: 50px;
+}
+.nav-list li{
+  margin-left: 10px;
+}
+.nav-list li:hover{
+  border-bottom: 2px solid white;
+}
+.iconColor a{
+  color: white;
+
+}
+.iconColor a:hover i{
+  color:red;
+  transform:scale(1.5);
+}
+.active{
+  border-bottom: 2px solid red;
+}
+.img-b{
+  background:url("../../../images/123.jpg")no-repeat;
+  background-size: 1150px 568px;
+}
+.jumbotron{
+  height: 500px;
+  background: rgba(0,0,255,0.6);
+
+}
+img{
+  transition: all 0.2s ease-in;
+}
+img:hover{
+  transform:scale(1.1);
+
+}
+p{
+  text-indent: 2em;
+}
+.bg1{
+  background-color: black;
+  padding:30px 0;
+}
+.i-circle{
+  padding: 20px 22px;
+  background: white;
+  color:#7870E8;
+}
+.i-circle1{
+  padding: 20px 35px;
+  background: white;
+  color:#7870E8;
+}
+.i-circle:hover{
+  transform:scale(1.1);
+}
+.i-circle1:hover{
+  transform:scale(1.1);
+}
